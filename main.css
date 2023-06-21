@@ -1,0 +1,452 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+@font-face {
+  font-family: Rubik;
+  src: url(./assets/fonts/Rubik/Rubik-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Pacifico;
+  src: url(./assets/fonts/Pacifico/Pacifico.ttf);
+}
+.container{
+  width: 1366px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ nav * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ nav {
+  padding-top: 50px;
+  width: 100vw;
+  height: 100px;
+  background: #E0EEEE;
+}
+ nav ul a {
+  width: 46px;
+  height: 39px;
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 39px;
+  color: #3D6177;
+}
+ nav ul .center {
+  margin-left: 260px;
+  gap: 56px;
+}
+ nav ul .center a {
+  width: 62px;
+  height: 24px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #59564F;
+}
+ nav ul .apps {
+  gap: 32px;
+  margin-left: 157px;
+}
+header .info {
+  margin-top: 184px;
+}
+header .info h1 {
+  width: 800px;
+  height: 132px;
+  margin-left: 278px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 66px;
+  text-align: center;
+  color: #414D4D;
+}
+header .info .enter-email {
+  margin-top: 48px;
+  margin-left: 275px;
+}
+header .info .enter-email input {
+  width: 560px;
+  height: 104px;
+  padding-left: 10px;
+  padding-right: 220px;
+  background: #FFFFFF;
+  border: 2px solid #E0EEEE;
+  border-radius: 24px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #566666;
+}
+header .info .enter-email button {
+  width: 200px;
+  height: 72px;
+  margin-left: -210px;
+  background: #3D6177;
+  border-radius: 16px;
+  border: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FCFEFF;
+}
+header .info .enter-email button:active{
+  transition: all 0.2s ease-in;
+  transform: scale(0.9);
+}
+header .links {
+  width: 960.49px;
+  height: 48px;
+  display: flex;
+  gap: 88px;
+  margin-left: 203px;
+  margin-top: 200px;
+}
+main section:first-child {
+  background: #C5DDDD;
+  width: 1366px;
+  height: 512px;
+  margin-top: 128px;
+}
+main section:first-child h2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  width: 1110px;
+  height: 270px;
+  margin-left: 128px;
+  padding-top: 96px;
+  color: #414D4D;
+}
+main section:first-child p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  width: 510px;
+  height: 27px;
+  color: #566666;
+  margin-top: 25px;
+  margin-left: 128px;
+}
+main section:first-child p span {
+  color: #000;
+}
+main section:nth-child(2) {
+  margin-bottom: 175px;
+}
+main section:nth-child(2) .noni {
+  margin-left: 120px;
+  width: 380px;
+  height: 447px;
+  margin-top: 177px;
+}
+main section:nth-child(2) .noni h2 {
+  width: 600px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 50px;
+  color: #414D4D;
+}
+main section:nth-child(2) .noni p {
+  margin-top: 13px;
+  margin-bottom: 17px;
+  width: 400px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #566666;
+}
+main section:nth-child(2) .noni hr {
+  width: 400px;
+}
+main section:nth-child(2) .noni h4 {
+  margin-top: 47px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: #566666;
+  justify-content: space-between;
+  display: flex;
+}
+main section:nth-child(2) img {
+  margin-top: -550px;
+  margin-left: 695px;
+  height: 543px;
+  width: 543px;
+}
+main section:nth-child(3) {
+  padding-bottom: 128px;
+}
+main section:nth-child(3) h2 {
+  margin-left: 305px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 50px;
+  width: 650px;
+  color: #414D4D;
+}
+main section:nth-child(3) p {
+  margin-left: 293px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  width: 650px;
+  text-align: center;
+  color: #566666;
+  margin-bottom: 64px;
+}
+main section:nth-child(3) .card1 {
+  margin-left: 128px;
+  width: 354px;
+  height: 380px;
+  position: relative;
+}
+main section:nth-child(3) .card1 img {
+  width: 354px;
+  height: 240px;
+}
+main section:nth-child(3) .card1 .img-button{
+  position: absolute;
+  padding: 10px;
+  border-radius: 10px;
+  background: #C5DDDD;
+  top: 25px;
+  left:20px
+}
+main section:nth-child(3) .card1 h3 {
+  width: 350px;
+  margin-bottom: 40px;
+  margin-top: 24px;
+}
+main section:nth-child(3) .card1 a {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3D6177;
+}
+main section:nth-child(3) .card2 {
+  margin-top: -380px;
+  margin-left: 528px;
+  width: 354px;
+  height: 380px;
+  position: relative;
+}
+main section:nth-child(3) .card2 img {
+  width: 354px;
+  height: 240px;
+}
+main section:nth-child(3) .card2 .img-button{
+  position: absolute;
+  padding: 10px;
+  border-radius: 10px;
+  background: #C5DDDD;
+  top: 25px;
+  left:20px
+}
+main section:nth-child(3) .card2 h3 {
+  width: 350px;
+  margin-bottom: 40px;
+  margin-top: 24px;
+}
+main section:nth-child(3) .card2 a {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3D6177;
+}
+main section:nth-child(3) .card3 {
+  margin-top: -380px;
+  margin-left: 928px;
+  width: 354px;
+  height: 380px;
+  position: relative;
+}
+main section:nth-child(3) .card3 img {
+  width: 354px;
+  height: 240px;
+}
+main section:nth-child(3) .card3 .img-button{
+  position: absolute;
+  padding: 10px;
+  border-radius: 10px;
+  background: #C5DDDD;
+  top: 25px;
+  left:20px
+}
+main section:nth-child(3) .card3 h3 {
+  width: 350px;
+  margin-bottom: 40px;
+  margin-top: 24px;
+}
+main section:nth-child(3) .card3 a {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3D6177;
+}
+main section:nth-child(4) {
+  background: #C5DDDD;
+  height: 429px;
+  width: 1366px;
+}
+main section:nth-child(4) h2 {
+  padding-top: 96px;
+  width: 890px;
+  height: 66px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 66px;
+  text-align: center;
+  margin-left: 233px;
+  color: #414D4D;
+}
+main section:nth-child(4) p {
+  padding-top: 45px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  margin-left: 233px;
+  text-align: center;
+  color: #566666;
+  width: 890px;
+  height: 27px;
+}
+main section:nth-child(4) .enter-email {
+  padding-top: 40px;
+  margin-left: 275px;
+}
+main section:nth-child(4) .enter-email input {
+  width: 560px;
+  height: 104px;
+  padding-left: 10px;
+  padding-right: 220px;
+  background: #FFFFFF;
+  border: 2px solid #E0EEEE;
+  border-radius: 24px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #566666;
+}
+main section:nth-child(4) .enter-email button {
+  width: 200px;
+  height: 72px;
+  margin-left: -210px;
+  background: #3D6177;
+  border-radius: 16px;
+  border: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FCFEFF;
+}
+main section:nth-child(4) .enter-email button:active{
+    transition: all 0.2s ease-in;
+    transform: scale(0.9);
+}
+
+footer * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  padding-top: 50px;
+  width: 100vw;
+  height: 100px;
+  background: #E0EEEE;
+}
+footer ul {
+  padding-left: 100px;
+}
+footer ul a {
+  width: 46px;
+  height: 39px;
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 39px;
+  color: #3D6177;
+}
+footer ul .center {
+  margin-right: 221px;
+  margin-left: 326px;
+  gap: 56px;
+}
+footer ul .center a {
+  width: 62px;
+  height: 24px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #59564F;
+}
+footer ul .apps {
+  gap: 32px;
+}
+
+.img::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  /* border-radius: 50%; */
+  background: var(--pink-circle);
+  z-index: 1;
+  opacity: .4;
+}
