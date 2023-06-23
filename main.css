@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
 }
 @font-face {
   font-family: Rubik;
@@ -31,7 +30,6 @@ a {
 }
  nav {
   padding-top: 50px;
-  width: 1366px;
   height: 100px;
   background: #E0EEEE;
 }
@@ -123,13 +121,14 @@ header .links {
   margin-left: 203px;
   margin-top: 200px;
 }
-main section:first-child {
+.section1 {
+  margin-left: 0;
   background: #C5DDDD;
-  width: 1366px;
+  width: 100vw;
   height: 512px;
   margin-top: 128px;
 }
-main section:first-child h2 {
+.section1 h2 {
   font-family: "Rubik";
   font-style: normal;
   font-weight: 600;
@@ -141,7 +140,7 @@ main section:first-child h2 {
   padding-top: 96px;
   color: #414D4D;
 }
-main section:first-child p {
+.section1 p {
   font-family: "Rubik";
   font-style: normal;
   font-weight: 600;
@@ -153,7 +152,7 @@ main section:first-child p {
   margin-top: 25px;
   margin-left: 128px;
 }
-main section:first-child p span {
+.section1 p span {
   color: #000;
 }
 main section:nth-child(2) {
@@ -328,7 +327,7 @@ main section:nth-child(3) .card3 a {
 main section:nth-child(4) {
   background: #C5DDDD;
   height: 429px;
-  width: 1366px;
+  width: 100%;
 }
 main section:nth-child(4) h2 {
   padding-top: 96px;
@@ -402,7 +401,6 @@ footer * {
 
 footer {
   padding-top: 50px;
-  width: 1366px;
   height: 100px;
   background: #E0EEEE;
 }
@@ -445,8 +443,15 @@ footer ul .apps {
   height: 100%;
   right: 0;
   top: 0;
-  /* border-radius: 50%; */
   background: var(--pink-circle);
   z-index: 1;
   opacity: .4;
+}
+.rangsiz-fon{
+  opacity: .78;
+  margin-top: -240px;
+}
+.card1, .card2, .card3{
+  display: flex;
+  flex-direction: column;
 }
