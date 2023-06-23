@@ -22,6 +22,9 @@ li {
 a {
   text-decoration: none;
 }
+button{
+  cursor: pointer;
+}
 
  nav * {
   display: flex;
